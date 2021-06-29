@@ -208,9 +208,4 @@ module.exports = {
         if (!currentTicket) return false;
         else return currentTicket;
     },
-
-    updateGuild: async (guild, options) => {
-        const guildSettingsProfile = await this.fetchGuild(guild);
-        await GuildSettings.findOneAndUpdate({ _id: guildSettingsProfile._id }, options);
-    },
 };
