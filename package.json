@@ -1,0 +1,41 @@
+{
+  "name": "discord-ticketsystem",
+  "version": "1.0.0",
+  "description": "An easy to use ticket system for Discord.js v12 and MongoDB!",
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "models"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FusionTerror/discord-ticketsystem.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord-js",
+    "discord-tickets",
+    "discord-ticketsystem",
+    "discordbot",
+    "discord-bot",
+    "ticketsystem",
+    "ticket-system"
+  ],
+  "author": "Fusion Terror",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FusionTerror/discord-ticketsystem/issues"
+  },
+  "homepage": "https://github.com/FusionTerror/discord-ticketsystem#readme",
+  "dependencies": {
+    "mongoose": "^5.13.0"
+  }
+}
