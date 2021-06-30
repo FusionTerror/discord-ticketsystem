@@ -1,6 +1,6 @@
 {
   "name": "discord-ticketsystem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An easy to use ticket system for Discord.js v12 and MongoDB!",
   "engines": {
     "node": ">=7.8.0"
